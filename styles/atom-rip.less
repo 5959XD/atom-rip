@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   z-index: 10000000;
   position: absolute;
@@ -13,19 +14,19 @@
   background-color: #FF9A8B;
   background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
 
-  .message {
+  h1, h2 {
     color: white;
     text-align: center;
     font-family: NanumSquare, sans-serif;
+  }
 
-    h1 {
-      font-size: 5vw;
-      padding-bottom: 1vw;
-    }
+  h1 {
+    font-size: 5vw;
+    padding-bottom: 1vw;
+  }
 
-    h2 {
-      font-size: 3vw;
-    }
+  h2 {
+    font-size: 3vw;
   }
 }
 
