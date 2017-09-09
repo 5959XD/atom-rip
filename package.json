@@ -12,6 +12,13 @@
   "dependencies": {
     "typeface-nanum-square": "^1.1.0"
   },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "configSchema": {
     "codingTime": {
       "title": "코딩 시간",
