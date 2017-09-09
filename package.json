@@ -1,0 +1,18 @@
+{
+  "name": "atom-rip",
+  "main": "./lib/atom-rip",
+  "version": "1.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-rip:toggle"
+  },
+  "repository": "https://github.com/atom/atom-rip",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

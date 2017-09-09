@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-rip",
+        "command": "atom-rip:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-rip",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-rip:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
