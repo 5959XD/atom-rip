@@ -11,5 +11,20 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "configSchema": {
+    "codingTime": {
+      "title": "코딩 시간",
+      "description": "이 시간만큼 일하면 쉽니다. 단위는 **초**입니다.",
+      "type": "integer",
+      "default": "30"
+    },
+
+    "restTime": {
+      "title": "휴식 시간",
+      "description": "이 시간만큼 쉬면 다시 일합니다. 단위는 **초**입니다.",
+      "type": "integer",
+      "default": "10"
+    }
   }
 }
