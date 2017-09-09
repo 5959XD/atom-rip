@@ -1,16 +1,32 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 
 .atom-rip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   z-index: 10000000;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
 
   background-color: #FF9A8B;
   background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+  .message {
+    color: white;
+    text-align: center;
+    font-family: NanumSquare, sans-serif;
+
+    h1 {
+      font-size: 5vw;
+      padding-bottom: 1vw;
+    }
+
+    h2 {
+      font-size: 3vw;
+    }
+  }
 }
 
 .message {
