@@ -1,6 +1,0 @@
-{
-  "atom-workspace": {
-    "ctrl-alt-o": "atom-rip:toggle",
-    "ctrl-alt-u": "atom-rip:timeCheck"
-  }
-}
