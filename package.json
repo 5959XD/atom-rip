@@ -1,9 +1,14 @@
 {
   "name": "atom-rip",
   "main": "./lib/atom-rip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A short description of your package",
-  "keywords": ["rip", "relaxing", "health", "rest"],
+  "keywords": [
+    "rip",
+    "relaxing",
+    "health",
+    "rest"
+  ],
   "repository": "https://github.com/5959XD/atom-rip",
   "license": "MIT",
   "engines": {
