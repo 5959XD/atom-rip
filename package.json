@@ -3,7 +3,7 @@
   "main": "./lib/atom-rip",
   "version": "1.0.0",
   "description": "A short description of your package",
-  "keywords": [],
+  "keywords": ["rip", "relaxing", "health", "rest"],
   "repository": "https://github.com/atom/atom-rip",
   "license": "MIT",
   "engines": {
