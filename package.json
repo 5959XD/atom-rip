@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A short description of your package",
   "keywords": ["rip", "relaxing", "health", "rest"],
-  "repository": "https://github.com/atom/atom-rip",
+  "repository": "https://github.com/5959XD/atom-rip",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -24,7 +24,7 @@
       "title": "코딩 시간",
       "description": "이 시간만큼 일하면 쉽니다. 단위는 **초**입니다.",
       "type": "integer",
-      "default": "10"
+      "default": "120"
     },
     "restTime": {
       "title": "휴식 시간",
