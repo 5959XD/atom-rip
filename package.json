@@ -2,7 +2,7 @@
   "name": "atom-rip",
   "main": "./lib/atom-rip",
   "version": "1.0.1",
-  "description": "A short description of your package",
+  "description": "당신의 코딩에 휴식을!",
   "keywords": [
     "rip",
     "relaxing",
