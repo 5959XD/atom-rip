@@ -14,9 +14,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "typeface-nanum-square": "^1.1.0"
-  },
+  "dependencies": {},
   "consumedServices": {
     "status-bar": {
       "versions": {
@@ -29,22 +27,29 @@
       "title": "코딩 시간",
       "description": "이 시간만큼 일하면 쉽니다. 단위는 **초**입니다.",
       "type": "integer",
-      "default": "120",
-      "order": "1"
+      "default": 120,
+      "order": 1
     },
     "restTime": {
       "title": "휴식 시간",
       "description": "이 시간만큼 쉬면 다시 일합니다. 단위는 **초**입니다.",
       "type": "integer",
-      "default": "30",
-      "order": "2"
+      "default": 30,
+      "order": 2
     },
     "muteNarration": {
       "title": "나레이션 끄기",
-      "description": "휴식 화면에서 재생되는 나레이션을 끕니다.",
+      "description": "휴식 화면에서 재생되는 나레이션을 끕니다. 적용되려면 재시작이 필요합니다.",
       "type": "boolean",
       "default": false,
-      "order": "3"
+      "order": 4
+    },
+    "customFont": {
+      "title": "커스텀 폰트",
+      "description": "휴식 화면에 사용할 폰트입니다.",
+      "type": "string",
+      "default": "NanumSquare, sans-serif",
+      "order": 3
     }
   }
 }
