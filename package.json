@@ -1,7 +1,7 @@
 {
   "name": "atom-rip",
   "main": "./lib/atom-rip",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "당신의 코딩에 휴식을!",
   "keywords": [
     "rip",
