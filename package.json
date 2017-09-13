@@ -39,7 +39,7 @@
     },
     "muteNarration": {
       "title": "나레이션 끄기",
-      "description": "휴식 화면에서 재생되는 나레이션을 끕니다. 적용되려면 재시작이 필요합니다.",
+      "description": "휴식 화면에서 재생되는 나레이션을 끕니다.",
       "type": "boolean",
       "default": false,
       "order": 4
